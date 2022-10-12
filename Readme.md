@@ -135,25 +135,26 @@ django-admin startproject project
 ![Home Screenshot](./screenshots/Home_2.png)
 
 ## SignUp Popup
-![Service Screenshot](./screenshots/Signup.png)
+![SignUp Screenshot](./screenshots/Signup.png)
 
 ## SignIn Popup
-![Diagnose Screenshot](./screenshots/Signin.png)
+![SignIn Screenshot](./screenshots/Signin.png)
 
 ## Login Page
-![Diagnose Screenshot](./screenshots/Login.png)
+![Login Doctor Screenshot](./screenshots/Login_1.png)
+![Login Patient Screenshot](./screenshots/Login_2.png)
 
 ## Doctor Home Page
-![Diagnose Screenshot](./screenshots/Doctor%20Page.png)
+![Doctor Home Page Screenshot](./screenshots/Doctor%20Page.png)
 
 ## Patient Home Page
-![Diagnose Screenshot](./screenshots/Patient%20Page.png)
+![Patient Home Page Screenshot](./screenshots/Patient%20Page.png)
 
 ## Consult Page
-![Diagnose Screenshot](./screenshots/Consult%20Page.png)
+![Consult Page Screenshot](./screenshots/Consult%20Page.png)
 
 ## Chat Page
-![Diagnose Screenshot](./screenshots/Chat.png)
+![Chat Page Screenshot](./screenshots/Chat.png)
 
 <hr>
 
