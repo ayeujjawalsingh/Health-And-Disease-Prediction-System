@@ -45,7 +45,6 @@ def sign_in_admin(request):
 
 def signup_patient(request):
 
-
     if request.method == 'POST':
       
       if request.POST['username'] and request.POST['email'] and  request.POST['name'] and request.POST['dob'] and request.POST['gender'] and request.POST['address']and request.POST['mobile']and request.POST['password']and request.POST['password1'] :
@@ -281,3 +280,4 @@ def saveddata(request,doctorusername):
 
     return redirect('dviewprofile',doctorusername)
 
+#  UnComment After Evaluation

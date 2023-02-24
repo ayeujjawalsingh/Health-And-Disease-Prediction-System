@@ -3908,7 +3908,7 @@ tbody.collapse.show {
   color: #868e96;
   pointer-events: none;
   background-color: #fff;
-  border-color: #ddd;
+  border-color: rgb(255, 255, 255);
 }
 
 .page-link {
@@ -3919,14 +3919,14 @@ tbody.collapse.show {
   line-height: 1.25;
   color: #007bff;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(255, 253, 253);
 }
 
 .page-link:focus, .page-link:hover {
   color: #0056b3;
   text-decoration: none;
-  background-color: #e9ecef;
-  border-color: #ddd;
+  background-color: #ffffff;
+  border-color: rgb(255, 255, 255);
 }
 
 .pagination-lg .page-link {
@@ -4050,29 +4050,29 @@ tbody.collapse.show {
 }
 
 .badge-danger[href]:focus, .badge-danger[href]:hover {
-  color: #fff;
+  color: #e9ecef;
   text-decoration: none;
   background-color: #bd2130;
 }
 
 .badge-light {
   color: #111;
-  background-color: #f8f9fa;
+  background-color: #e9ecef;
 }
 
 .badge-light[href]:focus, .badge-light[href]:hover {
   color: #111;
   text-decoration: none;
-  background-color: #dae0e5;
+  background-color: #e9ecef;
 }
 
 .badge-dark {
-  color: #fff;
+  color: #e9ecef;
   background-color: #343a40;
 }
 
 .badge-dark[href]:focus, .badge-dark[href]:hover {
-  color: #fff;
+  color: #e9ecef;
   text-decoration: none;
   background-color: #1d2124;
 }

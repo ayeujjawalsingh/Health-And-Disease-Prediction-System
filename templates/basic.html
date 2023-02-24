@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'homepage/bootstrap/css/bootstrap.min.css' %}">
     
-   <title>predico</title>
+   <title>MedXPert</title>
    
    <link rel="stylesheet" href="{% static 'homepage/bootstrap/css/bootstrap.min.css' %}">
    <link rel="stylesheet" href="{% static 'homepage/css.css' %}">
@@ -42,7 +42,7 @@
 
   body{
 
-  background-image: url( "{% static 'homepage/gray.jpg' %}");
+  background-image: url( "{% static 'homepage/gra.png' %}");
   background-attachment: fixed;
   opacity: 0.93;
   background-repeat: no-repeat;
@@ -70,18 +70,8 @@
 
   <body>
 
-
-
-      <div class="container-fluid">
-
-          <div class="page-header mt-1 mb-1 ml-1 ">
-          <h1>PREDICO</h1>   
-          <h6>Be your own doctor </h6>
-        </div>
-      
-      
-          <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1b405a;">
-              <a class="navbar-brand" href="{% url 'home' %}">Predico </a>
+          <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+              <a class="navbar-brand" href="{% url 'home' %}">MedXPert </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
               </button>
@@ -104,7 +94,7 @@
                       {% if user.patient %}
       
                       <li class="nav-item ml-2">
-                      <li class="nav-link" href="{% url 'patient_ui' %}" style="color: rgb(91, 252, 50);">Hello, {{user.patient.name}}</li>
+                      <li class="nav-link" href="{% url 'patient_ui' %}" style="color: rgb(2, 248, 43);">Hello, {{user.patient.name}}</li>
                       </li>
                       <li class="nav-item ml-2">
                           <a class="nav-link" href="{% url 'patient_ui' %}">Profile</a>
@@ -115,7 +105,7 @@
                       {% if user.doctor  %}
       
                       <li class="nav-item ml-2">
-                        <li class="nav-link" href="{% url 'doctor_ui' %}" style="color: rgb(91, 252, 50);">Hello, Dr. {{user.doctor.name}}</li>
+                        <li class="nav-link" href="{% url 'doctor_ui' %}" style="color: rgb(2, 248, 43);">Hello, Dr. {{user.doctor.name}}</li>
                         </li>
                         <li class="nav-item ml-2">
                             <a class="nav-link" href="{% url 'doctor_ui' %}">Profile</a>
@@ -127,7 +117,7 @@
                       {% if user.is_superuser  %}
       
                       <li class="nav-item ml-2">
-                        <li class="nav-link" href="{% url 'admin_ui' %}" style="color: rgb(91, 252, 50);">Admin: {{user.username}}</li>
+                        <li class="nav-link" href="{% url 'admin_ui' %}" style="color: rgb(2, 248, 43);">Admin: {{user.username}}</li>
                         </li>
                         <li class="nav-item ml-2">
                             <a class="nav-link" href="{% url 'admin_ui' %}">Profile</a>
