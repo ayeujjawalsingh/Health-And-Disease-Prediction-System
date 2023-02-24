@@ -129,32 +129,41 @@ django-admin startproject project
 
 # <p align="center">Project Demonstration</p>
 
-## Home
+## Home Page
 
-![Home Screenshot](./screenshots/Home_1.png)
-![Home Screenshot](./screenshots/Home_2.png)
+![Home Screenshot](./screenshots/Home_Page_1.png)
+![Home Screenshot](./screenshots/Home_Page_2.png)
 
-## SignUp Popup
-![SignUp Screenshot](./screenshots/Signup.png)
+## SignUp Options
+![SignUp Screenshot](./screenshots/Signup_Option.png)
 
-## SignIn Popup
-![SignIn Screenshot](./screenshots/Signin.png)
+## SignIn Options
+![SignIn Screenshot](./screenshots/Login_Option.png)
 
-## Login Page
-![Login Doctor Screenshot](./screenshots/Login_1.png)
-![Login Patient Screenshot](./screenshots/Login_2.png)
+## Doctor Page
+### Registration
+![Registration Doctor Screenshot](./screenshots/Doctor_Registration_page.png)
+### Login
+![Login Doctor Screenshot](./screenshots/Doctor_Login_Page.png)
+### Doctor Welcome Page
+![Doctor Welcome Page Screenshot](./screenshots/Doctor_Welcome_Page.png)
+### Client Feedback Section
+![lient Feedback Section Screenshot](./screenshots/Doctor_Feedback_Section.png)
 
-## Doctor Home Page
-![Doctor Home Page Screenshot](./screenshots/Doctor%20Page.png)
 
-## Patient Home Page
-![Patient Home Page Screenshot](./screenshots/Patient%20Page.png)
+## Patient Page
+### Registration
+![Registration Patient Screenshot](./screenshots/Patient_Registration.png)
+### Login
+![Login Patient Screenshot](./screenshots/Patient_Login.png)
+### Patient Welcome Page
+![Patient Welcome Page Screenshot](./screenshots/Patient_Welcome_Page.png)
+### Check Diseases
+![Check Diseases Screenshot](./screenshots/Check_Disease_1.png)
+![Check Diseases Screenshot](./screenshots/Check_Disease_2.png)
+### Client Feedback Section
+![lient Feedback Section Screenshot](./screenshots/Client_Feedback_Section.png)
 
-## Consult Page
-![Consult Page Screenshot](./screenshots/Consult%20Page.png)
-
-## Chat Page
-![Chat Page Screenshot](./screenshots/Chat.png)
 
 <hr>
 
